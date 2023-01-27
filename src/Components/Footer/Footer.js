@@ -1,12 +1,13 @@
 import React from 'react'
 import "./Footer.css"
+import {Link} from "react-router-dom"
 
 const Footer = () => {
   return (
-    <div className="main-container">
-      <div>
-        <div className='upper-heading'>
-          <h3>The values that hold us true and to account </h3>
+    <div  className="main-container">
+      
+        <div className='uper-heading'>
+          <h3>The values that hold us,<br/> true and to account </h3>
           </div>
                    <div className="row mt-5">
                       <div className="col-md-4"> 
@@ -37,11 +38,11 @@ const Footer = () => {
                    </div>
                   </div>
                   </div>
-      </div>
+      
 
 
 
-   <div className='square-template'>
+   <div className='square-template mt-5'>
      <div className='squar-heading'>
         <div className='top-heading'>
           {/* <img>logo</img> */}
@@ -64,8 +65,43 @@ const Footer = () => {
 
   {/* footer */}
 
-
-
+     <div className='footer'>
+      <div className='footer-container'>
+        <div className='row mt-5'>
+          <div className='col-md-3'>
+            <h4>Customer</h4>
+             <ul>
+              <li><a href="#">Buyer</a></li>
+              <li><a href="#">Supplier</a></li>
+             </ul>
+          </div>
+          <div className='col-md-3'>
+            <h4 className='text-center'>Company</h4>
+            <div className='footer-col'>
+            <ul>
+              <li><a href="#">about us</a></li>
+              <li><a href="#">Career</a></li>
+              <li><a href="#">Contact us</a></li>
+             </ul>
+             </div>
+          </div>
+          <div className='col-md-3'>
+            <h4>Further information</h4>
+            <div className='footer-col'>
+            <ul>
+              <li><a href="#">Terms and conditions</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+             </ul>
+          </div>
+          </div>
+          <div className='col-md-3'>
+          <div className='footer-col'>
+            <h4>Follow us</h4>
+          </div>
+          </div>
+        </div>
+      </div>
+     </div>
 
 
 

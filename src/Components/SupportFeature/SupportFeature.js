@@ -15,7 +15,7 @@ function SupportFeature() {
            
             <div className="button">
             <button className="button">Learn more</button>
-          </div>
+          </div> 
           </div>
           
           </div>
