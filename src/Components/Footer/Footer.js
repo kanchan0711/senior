@@ -1,6 +1,5 @@
 import React from "react";
 import "./Footer.css";
-import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -67,50 +66,59 @@ const Footer = () => {
 
       {/* footer */}
 
-      <div className="footer">
+      <div className="footer text-start">
         <div className="row mt-5">
-          <div className="col-md-3 text-center">
-            <h4 className="text-start" >Customer</h4>
-            
-                <a href="#">Buyer</a>
-              
-                <a href="#">Supplier</a>
-              
+          <div className="col-md-2">
+            {/* <img src="" alt="" /> */}
+            <span className="text-dark"> &copy; 2018</span>
           </div>
-          <div className="col-md-3 text-center">
-            <h4 >Company</h4>
 
+          <div className="col-md-2">
+            <h4 className="text-dark">Customer</h4>
             <ul>
               <li>
-                <a href="#">about us</a>
+                <a href="_#">Buyer</a>
               </li>
+
               <li>
-                <a href="#">Career</a>
-              </li>
-              <li>
-                <a href="#">Contact us</a>
+                <a href="_#">Supplier</a>
               </li>
             </ul>
           </div>
-        
-        <div className="col-md-3 text-center">
-          <h4 >Further information</h4>
+          <div className="col-md-2 ">
+            <h4 className="text-dark">Company</h4>
 
-          <ul>
-            <li>
-              <a href="#">Terms and conditions</a>
-            </li>
-            <li>
-              <a href="#">Privacy Policy</a>
-            </li>
-          </ul>
+            <ul>
+              <li>
+                <a href="#_">about us</a>
+              </li>
+              <li>
+                <a href="#_">Career</a>
+              </li>
+              <li>
+                <a href="#_">Contact us</a>
+              </li>
+            </ul>
+          </div>
+
+          <div className="col-md-2 ">
+            <h5 className="text-dark">Further information</h5>
+            <ul>
+              <li>
+                {" "}
+                <a href="#_">Terms and conditions</a>
+              </li>
+              <li>
+                <a href="#_">Privacy Policy</a>
+              </li>
+            </ul>
+          </div>
+
+          <div className="col-md-4 ">
+            <h4 className="text-dark">Follow us</h4>
+          </div>
         </div>
-      
-      <div className="col-md-3 text-center">
-        <h4 >Follow us</h4>
       </div>
-      </div>
-    </div>
     </div>
   );
 };
