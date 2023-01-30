@@ -1,13 +1,11 @@
 import square from "../../assests/square.avif";
-import "./SupportFeature.css";
+// import "./SupportFeature.css";
 
 function SupportFeature() {
   return (
-    <div className="container  ">
-                          
-
-        <div className="row">
-          <div className="col-md-2 w-50">
+    <div className="container ">
+          <div className="row">
+          <div className="col-md-10 ">
             <h1>Learning Support Features</h1>
           </div>
           <div className="col-md-2 mt-5">
@@ -16,12 +14,10 @@ function SupportFeature() {
             </button>
           </div>
         </div>
-      
-
-      <div className="box-rigth pt-5 ">
+        <div className=" pt-5 ">
         <div className="row ">
-          <div className="col-md-4 w-25">
-            <img src={square} />
+          <div className="col-md-4">
+            <img src={square}  alt='' />
 
             <h5 className="mt-5"> Watch online video</h5>
 
@@ -30,8 +26,8 @@ function SupportFeature() {
               iusto nihiaS technology
             </p>
           </div>
-          <div className="col-md-4 w-25">
-            <img src={square} />
+          <div className="col-md-4">
+            <img src={square} alt=''  />
             <h5 className="mt-5">Question and Discussion</h5>
             <p>
               Lorem ipsum dolor sit amet. Et aliquam autem ex ducimus atque non
@@ -39,8 +35,8 @@ function SupportFeature() {
             </p>
           </div>
 
-          <div className="col-md-4 w-25">
-            <img src={square} />
+          <div className="col-md-4">
+            <img src={square} alt=''  />
 
             <h5 className="mt-5"> Download Study Notes</h5>
 
@@ -56,6 +52,3 @@ function SupportFeature() {
 }
 
 export default SupportFeature;
-
-
-
