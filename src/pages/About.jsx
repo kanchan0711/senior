@@ -1,11 +1,11 @@
 import React from 'react'
 
-const parallax = () => {
+const About = () => {
   return (
     <div>
-      hello
+      about
     </div>
   )
 }
 
-export default parallax
+export default About
