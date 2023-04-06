@@ -6,9 +6,11 @@ const Homepage = () => {
     <div>
           <Sidebaar />
           <div className='container bg-gray'>
-            <div className='rectangle bg-light'></div>
+           <h1>module 1</h1>
           </div>
-
+          <div className='rectangle bg-light'>
+           
+          </div>
 </div>
   );
 };
